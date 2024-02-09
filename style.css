@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 214, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_side{
+    position: relative;
+    background-color: rgb(181, 223, 182);
+    padding: 40px;
+}
+.container .right_side{
+    position: relative;
+    background-color: rgb(213, 214, 157);
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(142, 43, 95);
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile h2{
+    color: rgb(243, 245, 245);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.myInfo{
+    padding-top: 50px;
+}
+.myInfo .title{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.myInfo ul{
+    position: relative;
+    list-style-type: none;
+}
+.myInfo ul li{
+    position: relative;
+    
+    margin: 10px 0;
+}
+.myInfo .material-symbols-outlined{
+    display: inline-block;
+    color: #fff;
+}
+.myInfo .percent{
+    position: relative;
+    margin: 10px;
+    height: 7px;
+    display: block;
+    background-color: #fff;
+}
+.myInfo .percent div{
+    position: absolute;
+    margin: 0%;
+    height: 100%;
+    background-color: #242323;
+}
+.right_side .right_top{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.right_side .right_bottom .percent{
+    position: relative; 
+    margin-top: 5px;
+    width: 100%;
+    height: 6px;
+    display: block;
+    background-color: #fff;
+}
+.right_side .right_bottom .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+}
+.right_bottom .title{
+    font-size: 30px;
+
+}
+.experience .ex_table{
+    position: relative;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+.tasks{
+    position: relative;
+    margin: 20px;
+    color: #09100f;
+    list-style-type:square;
+}
+.right_bottom .company{
+    font-weight: bold;
+}
+.right_bottom .time{
+    font-size: 13px;
+}
+h3{
+    font-size: 24px;
+}
