@@ -101,13 +101,12 @@ body{
     padding: 35px 20px;
 }
 .right_bottom .link{
-    box-sizing: border-box;
-    margin: 20px;
-    text-decoration: none;
-    padding: 5px;
-    background-color:rgb(116, 160, 98);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
-    float: right;
+    text-decoration: none;
+    border-radius: 5px;
 }
 .right_side .right_bottom .percent{
     position: relative; 
